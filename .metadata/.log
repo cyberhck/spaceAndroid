@@ -442,3 +442,9 @@ Binding(ALT+ARROW_UP,
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-03-18 20:54:40.850
 !MESSAGE dialog_about.xml: Couldn't resolve resource @string/welcome
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-03-18 22:02:43.962
+!MESSAGE services_browser.xml: Dimension "120" in attribute "height" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-03-18 22:02:44.009
+!MESSAGE services_browser.xml: Dimension "120" in attribute "width" is missing unit!
