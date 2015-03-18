@@ -1,0 +1,14 @@
+package com.example.ti.ble.sensortag;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase.CursorFactory;
+import android.database.sqlite.SQLiteOpenHelper;
+
+public class DbHelper extends SQLiteOpenHelper{
+
+	public DbHelper(Context context, String name, CursorFactory factory, int version) {
+		super(context, name, factory, version);
+		// TODO Auto-generated constructor stub
+	}
+
+}

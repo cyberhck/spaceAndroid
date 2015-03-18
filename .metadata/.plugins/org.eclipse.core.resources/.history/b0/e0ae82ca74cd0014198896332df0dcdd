@@ -1,0 +1,36 @@
+package com.example.ti.ble.sensortag;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteDatabase.CursorFactory;
+import android.database.sqlite.SQLiteOpenHelper;
+
+public class DbHelper extends SQLiteOpenHelper{
+	public static String DB_NAME="sensor";
+	public DbHelper(Context context) {
+		super(context, name, factory, version);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void onCreate(SQLiteDatabase db) {
+		// TODO Auto-generated method stub
+		String sql="CREATE IF NOT EXISTS magneticField(x DOUBLE,y DOUBLE,z DOUBLE, time VARCHAR(200));";
+		db.execSQL(sql);
+		sql="CREATE IF NOT EXISTS pressure(pressure DOUBLE, time VARCHAR(200));";
+		db.execSQL(sql);
+		sql="CREATE IF NOT EXISTS humidity(dumidity DOUBLE, time VARCHAR(200));";
+		db.execSQL(sql);
+		sql="CREATE IF NOT EXISTS ambient(temperature DOUBLE, time VARCHAR(200));";
+		db.execSQL(sql);
+		sql="CREATE IF NOT EXISTS objectTemp(temperature DOUBLE, time VARCHAR(200));";
+		db.execSQL(sql);
+	}
+
+	@Override
+	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

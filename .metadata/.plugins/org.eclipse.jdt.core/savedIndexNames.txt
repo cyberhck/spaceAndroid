@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+/home/cyberkiller/spaceta/.metadata/.plugins/org.eclipse.jdt.core
+3053164090.index
+2971140519.index
+257627902.index

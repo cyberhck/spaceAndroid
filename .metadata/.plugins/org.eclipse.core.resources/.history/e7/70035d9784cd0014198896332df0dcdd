@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- **********************************************************
+**   File    : help_scan.html
+**   Descr.  : Help view for scan activity
+**** ****************************************************** -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<meta HTTP-EQUIV="expires" CONTENT="0">
+<meta name="Author" content="Texas Instruments">
+<title>BLE SensorTag</title>
+<link rel=stylesheet type="text/css" href="help.css">
+</head>
+
+<body>
+	<div class="main">
+		<p></p>
+</div>
+
+</body>
+</html>
+
