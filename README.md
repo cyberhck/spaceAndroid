@@ -13,3 +13,9 @@ of parameters. This app when implemented in future, can detect unusual activity 
 PC client can be found at the following repository:
 
 [github.com/cyberhck/sensor-web](github.com/cyberhck/sensor-web)
+
+## Sorry for lot of dot files, (too lazy to write .gitignore files)
+
+## Contribution
+It'd be awesome if we get some contributors, please send us pull requests in small chunks with subject of the modification, please avoid huge 
+modification in a single pull request.
